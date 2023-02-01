@@ -1,2 +1,3 @@
 # Weather-forecasting-app
-This is a repository that I created for weather forecasting app
+
+https://abhishekkumar969.github.io/Weather-forecasting-app/

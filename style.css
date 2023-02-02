@@ -1,21 +1,22 @@
-/* body {
-            background-image: url("images/cloud.webp");
-            background-repeat: no-repeat;
-            background-size: cover;
-        } */
+@media screen and (max-width: 1024px) {
+    .screen {
+        display: none;
+    }
+}
 
 body {
     margin: 0px;
     padding: 0px;
+    /* background-color: rgb(129, 188, 236); */
+    background-color: rgb(205, 227, 230);
 }
 
 .screen {
-    /* background-color: rgb(111, 190, 247); */
     background-color: black;
 }
 
 .bg img {
-    width: 100vw;
+    width: 110vw;
     height: 110vh;
     filter: brightness(1);
 }

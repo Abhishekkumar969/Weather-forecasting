@@ -2,7 +2,6 @@ const options = {
     method: 'GET',
     headers: {
         'X-RapidAPI-Key': 'b45e96323fmshf5e4bc50d3b8a90p1e091djsnfb21cde4eb87',
-        // 'X-RapidAPI-Key': '9d11b94a5cmsh4e4c306f7894cc2p1ce86ajsn89d67f716e54',
         'X-RapidAPI-Host': 'weather-by-api-ninjas.p.rapidapi.com'
     }
 };
@@ -31,21 +30,6 @@ submit.addEventListener("click", (e) => {
     e.preventDefault()
     getWeather(city.value)
 })
-
-// getWeather("Mumbai")
-// fetch('https://weather-by-api-ninjas.p.rapidapi.com/v1/weather?city=mumbai', options)
-//     .then(response => response.json())
-//     .then((response) => {
-//         console.log(response)
-//         temp01.innerHTML = response.temp
-//         feels_like01.innerHTML = response.feels_like
-//         humidity01.innerHTML = response.humidity
-//         min_temp01.innerHTML = response.min_temp
-//         max_temp01.innerHTML = response.max_temp
-//         wind_speed01.innerHTML = response.wind_speed
-//         wind_degrees01.innerHTML = response.wind_degrees
-
-//     })
 getWeather("Patna")
 fetch('https://weather-by-api-ninjas.p.rapidapi.com/v1/weather?city=Patna', options)
     .then(response => response.json())

@@ -1,90 +1,92 @@
- @media screen and (max-width: 800px) {
-     .screen {
-         display: none;
-     }
- }
- 
- body {
-     margin: 0px;
-     padding: 0px;
-     /* background-color: rgb(129, 188, 236); */
-     /* background-color: rgb(205, 227, 230); */
-     background-image: url(images/cloud.webp);
-     background-repeat: no-repeat;
-     background-size: cover;
- }
- 
- .screen {
-     background-color: black;
- }
- /* .bg img {
+@media screen and (max-width: 800px) {
+    .screen {
+        display: none;
+    }
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    /* background-color: rgb(0, 0, 0); */
+    /* background-color: rgb(205, 227, 230); */
+    background-image: url(images/cloud.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.screen {
+    background-color: black;
+}
+
+
+/* .bg img {
      width: 100vw;
      height: 50vh;
      filter: brightness(1);
  } */
- 
- .left {
-     position: absolute !important;
-     left: 10vw !important;
-     top: 20vh !important;
- }
- 
- .left img {
-     max-width: 50vw;
-     filter: brightness(1);
- }
- 
- .mid {
-     left: 10rem !important;
-     bottom: 4rem !important;
-     top: unset !important;
- }
- 
- .mid img {
-     max-width: 40vw;
-     z-index: 2;
-     left: -20px;
-     top: 20vh !important;
-     filter: brightness(-0.5);
- }
- 
- .card {
-     max-width: 70vw;
- }
- 
- .right img {
-     width: 50vw;
-     height: 40vh;
-     position: absolute;
-     left: 40vw;
-     top: 20vh;
-     z-index: 0.1;
-     filter: brightness(1);
- }
- 
- .navbar {
-     max-width: 100%;
- }
- 
- #container {
-     margin: -10px 12vw !important;
- }
- 
- .shd_trans {
-     background: transparent;
-     background-color: aliceblue;
-     opacity: 0.7;
-     color: rgb(0, 0, 0);
-     font-weight: bold;
- }
- 
- .shd_trans2 {
-     background-color: transparent;
-     opacity: 5.2;
-     color: black;
- }
- 
- .top-cont {
-     font-weight: 600;
-     background-color: rgb(65, 120, 168);
- }
+
+.left {
+    position: absolute !important;
+    left: 10vw !important;
+    top: 20vh !important;
+}
+
+.left img {
+    max-width: 50vw;
+    filter: brightness(1);
+}
+
+.mid {
+    left: 2rem !important;
+    /* bottom: 4rem !important; */
+    /* top: unset !important; */
+}
+
+.mid img {
+    max-width: 40vw;
+    z-index: 2;
+    left: 20px;
+    top: 4rem !important;
+    filter: brightness(1);
+}
+
+.card {
+    max-width: 70vw;
+}
+
+.right img {
+    width: 50vw;
+    height: 40vh;
+    position: absolute;
+    left: 40vw;
+    top: 20vh;
+    z-index: 0.1;
+    filter: brightness(1);
+}
+
+.navbar {
+    max-width: 100%;
+}
+
+#container {
+    margin: -10px 12vw !important;
+}
+
+.shd_trans {
+    background: transparent;
+    background-color: aliceblue;
+    opacity: 0.7;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+
+.shd_trans2 {
+    background-color: transparent;
+    opacity: 5.2;
+    color: black;
+}
+
+.top-cont {
+    font-weight: 600;
+    background-color: rgb(65, 120, 168);
+}

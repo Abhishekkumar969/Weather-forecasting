@@ -44,8 +44,8 @@ fetch('https://weather-by-api-ninjas.p.rapidapi.com/v1/weather?city=Patna', opti
         wind_degrees02.innerHTML = response.wind_degrees
 
     })
-getWeather("Varanasi")
-fetch('https://weather-by-api-ninjas.p.rapidapi.com/v1/weather?city=Varanasi', options)
+getWeather("Gorakhpur")
+fetch('https://weather-by-api-ninjas.p.rapidapi.com/v1/weather?city=Gorakhpur', options)
     .then(response => response.json())
     .then((response) => {
         console.log(response)
